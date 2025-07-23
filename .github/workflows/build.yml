@@ -17,5 +17,5 @@ jobs:
       - run: ./gradlew assembleDebug
       - uses: actions/upload-artifact@v3
         with:
-          name: KaiOSLauncher-debug.apk
+          name: KaiosLauncher-debug.apk
           path: app/build/outputs/apk/debug/app-debug.apk
