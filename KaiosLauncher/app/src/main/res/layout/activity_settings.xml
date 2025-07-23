@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#000000">
+
+    <Switch
+        android:id="@+id/switchDark"
+        android:text="حالت شب"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="24dp"/>
+
+    <Button android:id="@+id/btnUp"
+        android:text="میانبر بالا"
+        android:layout_marginBottom="12dp"/>
+
+    <Button android:id="@+id/btnDown"
+        android:text="میانبر پایین"
+        android:layout_marginBottom="12dp"/>
+
+    <Button android:id="@+id/btnLeft"
+        android:text="میانبر چپ"
+        android:layout_marginBottom="12dp"/>
+
+    <Button android:id="@+id/btnRight"
+        android:text="میانبر راست"/>
+</LinearLayout>
